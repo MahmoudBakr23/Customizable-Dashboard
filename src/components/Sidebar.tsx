@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './sidebar.css';
 import { 
     LineStyle,
@@ -23,7 +24,7 @@ const Sidebar = () => {
                     <ul className='sidebarlist'>
                         <li className='sidebaritem active'>
                             <LineStyle className='sidebaricon' />
-                            Home
+                            <a href="/">Home</a>
                         </li>
                         <li className='sidebaritem'>
                             <Timeline className='sidebaricon' />
@@ -40,7 +41,7 @@ const Sidebar = () => {
                     <ul className='sidebarlist'>
                         <li className='sidebaritem'>
                             <PersonOutline className='sidebaricon' />
-                            Users
+                            <a href="/users">Users</a>
                         </li>
                         <li className='sidebaritem'>
                             <StoreOutlined className='sidebaricon' />
