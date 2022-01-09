@@ -1,5 +1,6 @@
 import './home.css';
 import Charts from '../components/Charts';
+import Piecharts from '../components/Piecharts';
 import { ArrowDownward, ArrowUpward } from '@material-ui/icons';
 
 const Home = () => {
@@ -41,6 +42,7 @@ const Home = () => {
             </div>
             </div>
             <Charts />
+            <Piecharts />
         </div>
     )
 }
