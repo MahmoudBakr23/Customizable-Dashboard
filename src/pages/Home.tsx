@@ -1,4 +1,5 @@
 import './home.css';
+import Charts from '../components/Charts';
 import { ArrowDownward, ArrowUpward } from '@material-ui/icons';
 
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
                 <span className="featuredSub">Compared to last week</span>
             </div>
             </div>
+            <Charts />
         </div>
     )
 }
