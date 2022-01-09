@@ -47,7 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [animechan](https://animechan.vercel.app/)
+- [Lama Dev](https://www.youtube.com/watch?v=aTPkos3LKi8&t=2894s)
 
 ## 📝 License
 
